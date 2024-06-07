@@ -10,7 +10,7 @@
     "email": "learncodingly@gmail.com",
     "url": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter-vscode/issues"
   },
-  "repository": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter",
+  "repository": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter-vscode",
   "publisher": "RohanVashisht",
   "engines": {
     "vscode": "^1.70.0"
