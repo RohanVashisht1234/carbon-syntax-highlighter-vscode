@@ -20,14 +20,5 @@
     ["(", ")"],
     ["\"", "\""],
     ["'", "'"]
-  ],
-  "onEnterRules": [
-    {
-      "beforeText": "^\\s*(?:def|class|for|if|elif|else|try|with|finally|except|async).*?:\\s*$",
-      "action": {
-        "indent": "none",
-        "appendText": "  "
-      }
-    }
   ]
 }

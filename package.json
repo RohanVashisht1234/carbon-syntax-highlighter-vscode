@@ -1,6 +1,6 @@
 {
   "name": "carbonizer",
-  "displayName": "Carbon",
+  "displayName": "Carbon Language support",
   "description": "Carbon programming language's complete language support extension",
   "icon": "./icons/icon.avif",
   "version": "0.1.0",
@@ -8,7 +8,7 @@
   "author": "Rohan Vashisht",
   "bugs": {
     "email": "learncodingly@gmail.com",
-    "url": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter/issues"
+    "url": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter-vscode/issues"
   },
   "repository": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter",
   "publisher": "RohanVashisht",
