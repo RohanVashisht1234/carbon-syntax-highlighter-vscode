@@ -11,4 +11,7 @@ All notable changes to the "carbon" extension will be documented in this file.
 - Implemented carbon icons
 - heavily reduced size of images/icons
 - Added debugging option
-- Added 
+- Added icons for carbon
+- Added pre-commit
+- Added snippets
+- Improved readme
