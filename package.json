@@ -1,10 +1,10 @@
 {
   "name": "carbonizer",
-  "displayName": "Carbon Language support",
+  "displayName": "Carbon",
   "description": "Carbon programming language's complete language support extension",
   "icon": "./icons/icon.avif",
-  "version": "0.1.0",
-  "license": "MIT",
+  "version": "0.1.1",
+  "license": "GPL-3.0-only",
   "author": "Rohan Vashisht",
   "bugs": {
     "email": "learncodingly@gmail.com",
