@@ -3,7 +3,15 @@
   "name": "carbon",
   "patterns": [
     {
-      "include": "#comments"
+      "name": "comment.line",
+      "begin": "//",
+      "end": "\n",
+      "patterns": [
+        {
+          "name": "keyword.control.BEND",
+          "match": "TODO\\:"
+        }
+      ]
     },
     {
       "include": "#operators"
@@ -33,15 +41,6 @@
         {
           "name": "keyword.operator.new.carbon",
           "match": "\\b(\\+|-|\\*|/|!)\\b"
-        }
-      ]
-    },
-    "comments": {
-      "patterns": [
-        {
-          "name": "comment.line.double-dash.carbon",
-          "begin": "//",
-          "end": "\n"
         }
       ]
     },

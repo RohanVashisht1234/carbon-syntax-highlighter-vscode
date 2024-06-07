@@ -1,12 +1,12 @@
 {
   "Main Function": {
     "prefix": ["main"],
-    "body": ["fn main() -> ${1:i32} {", "  return ${2:0}$0;", "\\}"],
+    "body": ["fn Main() -> ${1:i32} {","  $0" ,"  return ${2:0};", "\\}"],
     "description": "The main function"
   },
   "Package Statement": {
     "prefix": ["package"],
-    "body": ["package ${1:name}: $2:api} ${0}"],
+    "body": ["package ${1:name} ${2:api};", "$0"],
     "description": "The import package statement statement"
   }
 }

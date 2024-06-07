@@ -3,7 +3,7 @@
   "displayName": "Carbon",
   "description": "Carbon programming language's complete language support extension",
   "icon": "./icons/icon.avif",
-  "version": "0.1.91",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Rohan Vashisht",
   "bugs": {
