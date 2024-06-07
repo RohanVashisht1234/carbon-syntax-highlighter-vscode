@@ -3,7 +3,7 @@
   "displayName": "Carbonizer",
   "description": "Carbon programming language's complete language support extension",
   "icon": "./icons/icon.avif",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "GPL-3.0-only",
   "author": "Rohan Vashisht",
   "bugs": {
