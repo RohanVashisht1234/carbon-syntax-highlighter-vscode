@@ -1,0 +1,80 @@
+{
+  "name": "carbonizer",
+  "displayName": "Carbon",
+  "description": "Carbon programming language's complete language support extension",
+  "icon": "./icons/icon.avif",
+  "version": "0.1.91",
+  "license": "MIT",
+  "author": "Rohan Vashisht",
+  "bugs": {
+    "email": "learncodingly@gmail.com",
+    "url": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter/issues"
+  },
+  "repository": "https://github.com/RohanVashisht1234/carbon-syntax-highlighter",
+  "publisher": "RohanVashisht",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Debuggers",
+    "Snippets"
+  ],
+  "main": "./src/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "languages": [
+      {
+        "id": "carbon",
+        "aliases": [
+          "Carbon",
+          "carbon"
+        ],
+        "extensions": [
+          ".carbon"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/langIcon/light.webp",
+          "dark": "./icons/langIcon/dark.webp"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "carbon",
+        "scopeName": "source.carbon",
+        "path": "./syntaxes/carbon.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "carbon",
+        "path": "./snippets/carbon.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "runCarbonFile",
+        "title": "runCarbonFile",
+        "shortTitle": "runCarbonFile",
+        "icon": "$(play)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "runCarbonFile",
+          "when": "editorLangId == carbon",
+          "group": "navigation"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "runCarbonFile",
+        "key": "F5"
+      }
+    ]
+  }
+}
